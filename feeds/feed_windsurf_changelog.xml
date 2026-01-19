@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Jan 2026 07:08:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 08:02:58 +0000</lastBuildDate>
     <item>
       <title>Windsurf 1.13.9</title>
       <link>https://windsurf.com/changelog#1.13.9</link>
@@ -624,6 +624,14 @@
       <guid isPermaLink="false">https://windsurf.com/changelog#1.2.5#1.2.5</guid>
       <category>Changelog</category>
       <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf 1.2.2</title>
+      <link>https://windsurf.com/changelog#1.2.2</link>
+      <description>&lt;h3&gt;Quick Updates&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Improvements&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cascade Web search now includes the website description and uses page rank to determine relevance&lt;/li&gt;&lt;li&gt;Improvements to Cascade Auto-Generated Memories (Beta)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Fixes&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed input lag in long Cascade conversations&lt;/li&gt;&lt;li&gt;Increased precision when Cascade makes code edits&lt;/li&gt;&lt;li&gt;Fixed issues around Cascade edits with .gitignore files&lt;/li&gt;&lt;li&gt;Fixed Tab to Jump Quick Setting configuration&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog#1.2.2#1.2.2</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf 1.2.1</title>
