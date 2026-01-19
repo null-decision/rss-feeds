@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Jan 2026 21:02:54 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 22:03:27 +0000</lastBuildDate>
     <item>
       <title>Windsurf 1.13.9</title>
       <link>https://windsurf.com/changelog#1.13.9</link>
@@ -384,14 +384,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog#1.10.3#1.10.3</guid>
       <category>Changelog</category>
       <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf 1.10.1</title>
-      <link>https://windsurf.com/changelog#1.10.1</link>
-      <description>&lt;h3&gt;Planning Mode&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Send messages to Cascade in Planning Mode, a setting that will let Cascade plan before making edits&lt;/li&gt;&lt;li&gt;Cascade will create a plan.md file of the actions it plans to take before taking action&lt;/li&gt;&lt;li&gt;The plan is user-editable, and Cascade will pick up on user changes&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Terminal Improvements&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Native terminal in Cascade panel&lt;/li&gt;&lt;li&gt;Terminal now accepts user inputs in the Cascade panel&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Legacy Mode Removal&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Legacy mode has been removed, leaving Write and Chat mode&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Improvements&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Icons in @-mentions&lt;/li&gt;&lt;li&gt;Theme-aware codeblocks with refreshed design&lt;/li&gt;&lt;li&gt;Improvements to.codeiumignore&lt;/li&gt;&lt;li&gt;New menu to open previous conversations to quickly switch conversations&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.10.1#1.10.1</guid>
-      <category>Changelog</category>
-      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf 1.9.4</title>
