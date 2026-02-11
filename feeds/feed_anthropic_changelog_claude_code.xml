@@ -13,7 +13,56 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Feb 2026 19:14:39 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Feb 2026 00:08:01 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.39</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2139</link>
+      <description>&lt;ul&gt;&lt;li&gt;Improved terminal rendering performance&lt;/li&gt;&lt;li&gt;Fixed fatal errors being swallowed instead of displayed&lt;/li&gt;&lt;li&gt;Fixed process hanging after session close&lt;/li&gt;&lt;li&gt;Fixed character loss at terminal screen boundary&lt;/li&gt;&lt;li&gt;Fixed blank lines in verbose transcript view&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2139</guid>
+      <category>Changelog</category>
+    </item>
+    <item>
+      <title>v2.1.38</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2138</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed VS Code terminal scroll-to-top regression introduced in 2.1.37&lt;/li&gt;&lt;li&gt;Fixed Tab key queueing slash commands instead of autocompleting&lt;/li&gt;&lt;li&gt;Fixed bash permission matching for commands using environment variable wrappers&lt;/li&gt;&lt;li&gt;Fixed text between tool uses disappearing when not using streaming&lt;/li&gt;&lt;li&gt;Fixed duplicate sessions when resuming in VS Code extension&lt;/li&gt;&lt;li&gt;Improved heredoc delimiter parsing to prevent command smuggling&lt;/li&gt;&lt;li&gt;Blocked writes to `.claude/skills` directory in sandbox mode&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2138</guid>
+      <category>Changelog</category>
+    </item>
+    <item>
+      <title>v2.1.37</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2137</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed an issue where /fast was not immediately available after enabling /extra-usage&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2137</guid>
+      <category>Changelog</category>
+    </item>
+    <item>
+      <title>v2.1.36</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2136</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fast mode is now available for Opus 4.6. Learn more at https://code.claude.com/docs/en/fast-mode&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2136</guid>
+      <category>Changelog</category>
+    </item>
+    <item>
+      <title>v2.1.34</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2134</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed a crash when agent teams setting changed between renders&lt;/li&gt;&lt;li&gt;Fixed a bug where commands excluded from sandboxing (via `sandbox.excludedCommands` or `dangerouslyDisableSandbox`) could bypass the Bash ask permission rule when `autoAllowBashIfSandboxed` was enabled&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2134</guid>
+      <category>Changelog</category>
+    </item>
+    <item>
+      <title>v2.1.33</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2133</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed agent teammate sessions in tmux to send and receive messages&lt;/li&gt;&lt;li&gt;Fixed warnings about agent teams not being available on your current plan&lt;/li&gt;&lt;li&gt;Added `TeammateIdle` and `TaskCompleted` hook events for multi-agent workflows&lt;/li&gt;&lt;li&gt;Added support for restricting which sub-agents can be spawned via `Task(agent_type)` syntax in agent "tools" frontmatter&lt;/li&gt;&lt;li&gt;Added `memory` frontmatter field support for agents, enabling persistent memory with `user`, `project`, or `local` scope&lt;/li&gt;&lt;li&gt;Added plugin name to skill descriptions and `/skills` menu for better discoverability&lt;/li&gt;&lt;li&gt;Fixed an issue where submitting a new message while the model was in extended thinking would interrupt the thinking phase&lt;/li&gt;&lt;li&gt;Fixed an API error that could occur when aborting mid-stream, where whitespace text combined with a thinking block would bypass normalization and produce an invalid request&lt;/li&gt;&lt;li&gt;Fixed API proxy compatibility issue where 404 errors on streaming endpoints no longer triggered non-streaming fallback&lt;/li&gt;&lt;li&gt;Fixed an issue where proxy settings configured via `settings.json` environment variables were not applied to WebFetch and other HTTP requests on the Node.js build&lt;/li&gt;&lt;li&gt;Fixed `/resume` session picker showing raw XML markup instead of clean titles for sessions started with slash commands&lt;/li&gt;&lt;li&gt;Improved error messages for API connection failures — now shows specific cause (e.g., ECONNREFUSED, SSL errors) instead of generic "Connection error"&lt;/li&gt;&lt;li&gt;Errors from invalid managed settings are now surfaced&lt;/li&gt;&lt;li&gt;VSCode: Added support for remote sessions, allowing OAuth users to browse and resume sessions from claude.ai&lt;/li&gt;&lt;li&gt;VSCode: Added git branch and message count to the session picker, with support for searching by branch name&lt;/li&gt;&lt;li&gt;VSCode: Fixed scroll-to-bottom under-scrolling on initial session load and session switch&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2133</guid>
+      <category>Changelog</category>
+    </item>
+    <item>
+      <title>v2.1.32</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2132</link>
+      <description>&lt;ul&gt;&lt;li&gt;Claude Opus 4.6 is now available!&lt;/li&gt;&lt;li&gt;Added research preview agent teams feature for multi-agent collaboration (token-intensive feature, requires setting CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1)&lt;/li&gt;&lt;li&gt;Claude now automatically records and recalls memories as it works&lt;/li&gt;&lt;li&gt;Added "Summarize from here" to the message selector, allowing partial conversation summarization.&lt;/li&gt;&lt;li&gt;Skills defined in `.claude/skills/` within additional directories (`--add-dir`) are now loaded automatically.&lt;/li&gt;&lt;li&gt;Fixed `@` file completion showing incorrect relative paths when running from a subdirectory&lt;/li&gt;&lt;li&gt;Updated --resume to re-use --agent value specified in previous conversation by default.&lt;/li&gt;&lt;li&gt;Fixed: Bash tool no longer throws "Bad substitution" errors when heredocs contain JavaScript template literals like `${index + 1}`, which previously interrupted tool execution&lt;/li&gt;&lt;li&gt;Skill character budget now scales with context window (2% of context), so users with larger context windows can see more skill descriptions without truncation&lt;/li&gt;&lt;li&gt;Fixed Thai/Lao spacing vowels (สระ า, ำ) not rendering correctly in the input field&lt;/li&gt;&lt;li&gt;VSCode: Fixed slash commands incorrectly being executed when pressing Enter with preceding text in the input field&lt;/li&gt;&lt;li&gt;VSCode: Added spinner when loading past conversations list&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2132</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.31</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2131</link>
@@ -313,55 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2058</link>
       <description>&lt;ul&gt;&lt;li&gt;Pro users now have access to Opus 4.5 as part of their subscription!&lt;/li&gt;&lt;li&gt;Fixed timer duration showing "11m 60s" instead of "12m 0s"&lt;/li&gt;&lt;li&gt;Windows: Managed settings now prefer `C:\Program Files\ClaudeCode` if it exists. Support for `C:\ProgramData\ClaudeCode` will be removed in a future version.&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2058</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.57</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2057</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added feedback input when rejecting plans, allowing users to tell Claude what to change&lt;/li&gt;&lt;li&gt;VSCode: Added streaming message support for real-time response display&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2057</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.56</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2056</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added setting to enable/disable terminal progress bar (OSC 9;4)&lt;/li&gt;&lt;li&gt;VSCode Extension: Added support for VS Code's secondary sidebar (VS Code 1.97+), allowing Claude Code to be displayed in the right sidebar while keeping the file explorer on the left. Requires setting sidebar as Preferred Location in the config.&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2056</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.55</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2055</link>
-      <description>&lt;ul&gt;&lt;li&gt;Fixed proxy DNS resolution being forced on by default. Now opt-in via `CLAUDE_CODE_PROXY_RESOLVES_HOSTS=true` environment variable&lt;/li&gt;&lt;li&gt;Fixed keyboard navigation becoming unresponsive when holding down arrow keys in memory location selector&lt;/li&gt;&lt;li&gt;Improved AskUserQuestion tool to auto-submit single-select questions on the last question, eliminating the extra review screen for simple question flows&lt;/li&gt;&lt;li&gt;Improved fuzzy matching for `@` file suggestions with faster, more accurate results&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2055</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.54</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2054</link>
-      <description>&lt;ul&gt;&lt;li&gt;Hooks: Enable PermissionRequest hooks to process 'always allow' suggestions and apply permission updates&lt;/li&gt;&lt;li&gt;Fix issue with excessive iTerm notifications&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2054</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.52</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2052</link>
-      <description>&lt;ul&gt;&lt;li&gt;Fixed duplicate message display when starting Claude with a command line argument&lt;/li&gt;&lt;li&gt;Fixed `/usage` command progress bars to fill up as usage increases (instead of showing remaining percentage)&lt;/li&gt;&lt;li&gt;Fixed image pasting not working on Linux systems running Wayland (now falls back to wl-paste when xclip is unavailable)&lt;/li&gt;&lt;li&gt;Permit some uses of `$!` in bash commands&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2052</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.51</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2051</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added Opus 4.5! https://www.anthropic.com/news/claude-opus-4-5&lt;/li&gt;&lt;li&gt;Introducing Claude Code for Desktop: https://claude.com/download&lt;/li&gt;&lt;li&gt;To give you room to try out our new model, we've updated usage limits for Claude Code users. See the Claude Opus 4.5 blog for full details&lt;/li&gt;&lt;li&gt;Pro users can now purchase extra usage for access to Opus 4.5 in Claude Code&lt;/li&gt;&lt;li&gt;Plan Mode now builds more precise plans and executes more thoroughly&lt;/li&gt;&lt;li&gt;Usage limit notifications now easier to understand&lt;/li&gt;&lt;li&gt;Switched `/usage` back to "% used"&lt;/li&gt;&lt;li&gt;Fixed handling of thinking errors&lt;/li&gt;&lt;li&gt;Fixed performance regression&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2051</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.50</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2050</link>
-      <description>&lt;ul&gt;&lt;li&gt;Fixed bug preventing calling MCP tools that have nested references in their input schemas&lt;/li&gt;&lt;li&gt;Silenced a noisy but harmless error during upgrades&lt;/li&gt;&lt;li&gt;Improved ultrathink text display&lt;/li&gt;&lt;li&gt;Improved clarity of 5-hour session limit warning message&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2050</guid>
       <category>Changelog</category>
     </item>
   </channel>
