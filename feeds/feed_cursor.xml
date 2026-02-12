@@ -13,7 +13,15 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Feb 2026 19:21:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Feb 2026 22:04:54 +0000</lastBuildDate>
+    <item>
+      <title>Expanding our long-running agents research preview</title>
+      <link>https://cursor.com/blog/long-running-agents</link>
+      <description>Long-running agents are now available in the Cursor web app for Ultra, Teams, and Enterprise users.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/long-running-agents</guid>
+      <category>product</category>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Increased usage for agents</title>
       <link>https://cursor.com/blog/increased-agent-usage</link>
@@ -85,14 +93,6 @@
       <guid isPermaLink="false">https://cursor.com/blog/scaling-agents</guid>
       <category>research</category>
       <pubDate>Wed, 14 Jan 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Best practices for coding with agents</title>
-      <link>https://cursor.com/blog/agent-best-practices</link>
-      <description>A comprehensive guide to working with coding agents, from starting with plans to managing context, customizing workflows, and reviewing code.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/agent-best-practices</guid>
-      <category>product</category>
-      <pubDate>Fri, 09 Jan 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Dynamic context discovery</title>
