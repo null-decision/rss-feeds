@@ -8,7 +8,31 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Feb 2026 21:11:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 19:17:08 +0000</lastBuildDate>
+    <item>
+      <title>Windsurf 1.9577.24</title>
+      <link>https://windsurf.com/changelog#1.9577.24</link>
+      <description>&lt;p&gt;&lt;strong&gt;Cascade&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fix dangling Diff Zones related to Jupyter Notebooks&lt;/li&gt;&lt;li&gt;Improve Jupyter Notebook performance when running on WSL&lt;/li&gt;&lt;li&gt;Improve Cascade UI rendering performance&lt;/li&gt;&lt;li&gt;Fix Cascade agent panel crashes under certain conditions&lt;/li&gt;&lt;li&gt;Improve notifications for model price changes&lt;/li&gt;&lt;li&gt;Add support for loading SKILL.md files from the.windsurf/skills/directory&lt;/li&gt;&lt;li&gt;FixAGENTS.mdbeing ignored by Cascade in specific cases&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;MCP&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Add support forsystem-level Skill definitionsvia MDM-managed configs for Enterprise&lt;/li&gt;&lt;li&gt;Improve context management for MCP servers&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Stability &amp; Performance&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Improve autocomplete error handling and performance&lt;/li&gt;&lt;li&gt;Improve SSH &amp; Remote performance&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog#1.9577.24#1.9577.24</guid>
+      <category>Changelog</category>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf 1.9566.11</title>
+      <link>https://windsurf.com/changelog#1.9566.11</link>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fix extension installation version selection&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog#1.9566.11#1.9566.11</guid>
+      <category>Changelog</category>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf 1.9566.9</title>
+      <link>https://windsurf.com/changelog#1.9566.9</link>
+      <description>&lt;p&gt;&lt;strong&gt;New Model Picker&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;We introduced a new model picker that groups models by family and adds a hovercard with toggles for specific variants, like reasoning effort and speed. Separately, we also added the ability to pin models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Cascade Improvements&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AddedPOST_CASCADE_RESPONSE_WITH_TRANSCRIPTcascade hook&lt;/li&gt;&lt;li&gt;Added Cascade hooks configuration visibility on team settings page&lt;/li&gt;&lt;li&gt;Reduced the priority of Git commits in @ mention search&lt;/li&gt;&lt;li&gt;Added awindsurf.cascade.readClaudeCodeConfigflag to disable reading Claude configuration&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;MCP Improvements&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added an MCP Refresh button&lt;/li&gt;&lt;li&gt;Auto-trigger OAuth login when adding HTTP/SSE MCP servers&lt;/li&gt;&lt;li&gt;Fix bugs with parsing on Windows and startup&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Platform Improvements&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Merged changes from VS Code 1.108&lt;/li&gt;&lt;li&gt;Improved startup reliability for Cascade&lt;/li&gt;&lt;li&gt;Fixed Windows update initialization path that could block updates&lt;/li&gt;&lt;li&gt;Released binaries for Linux ARM64&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog#1.9566.9#1.9566.9</guid>
+      <category>Changelog</category>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf 1.9552.25</title>
       <link>https://windsurf.com/changelog#1.9552.25</link>
@@ -36,7 +60,7 @@
     <item>
       <title>Windsurf 1.9544.35</title>
       <link>https://windsurf.com/changelog#1.9544.35</link>
-      <description>&lt;h3&gt;New Models&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;GPT-5.3-Codex-Spark is now available in Arena Mode's Fast Arena and Hybrid Arena battle groups&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Claude Opus 4.6 (fast mode)&lt;/h3&gt;&lt;p&gt;Claude Opus 4.6 (fast mode) is now available in Windsurf in research preview with limited-time promotional pricing for self serve users until Feb 16:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;No thinking:10x credits&lt;/li&gt;&lt;li&gt;With thinking:12x credits&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Opus 4.6 (fast mode) has the same intelligence as Opus 4.6 but with up to 2.5x higher output speeds.&lt;/p&gt;&lt;h3&gt;Claude Opus 4.6&lt;/h3&gt;&lt;p&gt;Claude Opus 4.6 is now available in Windsurf with limited-time promotional pricing for self serve users:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;No thinking:2x credits&lt;/li&gt;&lt;li&gt;With thinking:3x credits&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Opus 4.6 is available in Arena Mode's Frontier Arena and Hybrid Arena. Try it head-to-head against other frontier models to see how it performs on your real-world tasks.&lt;/p&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Various bug fixes and performance improvements&lt;/li&gt;&lt;li&gt;Released Tab v2 model selector to all users&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;h3&gt;New Models&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;GPT-5.3-Codex-Spark is now available in Arena Mode's Fast Arena and Hybrid Arena battle groups&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Claude Opus 4.6 (fast mode)&lt;/h3&gt;&lt;p&gt;Claude Opus 4.6 (fast mode) is now available in Windsurf in research preview with limited-time promotional pricing for self serve users until Feb 16:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;No thinking:10x credits&lt;/li&gt;&lt;li&gt;With thinking:12x credits&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Opus 4.6 (fast mode) has the same intelligence as Opus 4.6 but with up to 2.5x higher output speeds.&lt;/p&gt;&lt;h3&gt;Claude Opus 4.6&lt;/h3&gt;&lt;p&gt;Claude Opus 4.6 is now available in Windsurf with limited-time promotional pricing for self serve users:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;No thinking:2x credits&lt;/li&gt;&lt;li&gt;With thinking:3x credits&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Opus 4.6 is available in Arena Mode's Frontier Arena and Hybrid Arena. Try it head-to-head against other frontier models to see how it performs on your real-world tasks.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog#1.9544.35#1.9544.35</guid>
       <category>Changelog</category>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
