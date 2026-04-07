@@ -8,7 +8,39 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Mar 2026 15:22:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 20:11:26 +0000</lastBuildDate>
+    <item>
+      <title>Windsurf Next 1.9600.1038</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9600.1038</link>
+      <description>&lt;h3&gt;Introducing Adaptive&lt;/h3&gt;&lt;p&gt;We've made several model packaging changes, with more infohere.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Adaptive Model Router&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;A newAdaptivemodel option is now available in the model picker. Adaptive intelligently selects the best model for each task, helping you make your quota last longer by avoiding overuse of premium models.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Availability: Now available to all self-serve users on Pro, Max, and Teams plans.&lt;/li&gt;&lt;li&gt;Dynamic model selection- Automatically chooses the right underlying model for your task while drawing down quota at a fixed per-token rate.&lt;/li&gt;&lt;li&gt;Extra usage promo- Beyond your quota, extra usage is offered at 0.50 USD per 1M input tokens, 2.00 USD per 1M output tokens, and 0.10 USD per 1M cache read tokens for the next 2 weeks.&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9600.1038#1.9600.1038</guid>
+      <category>Changelog</category>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.9600.1040</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9600.1040</link>
+      <description>&lt;p&gt;&lt;strong&gt;Adaptive Model Visibility&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;We've improved the visibility of the adaptive model in the model picker.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9600.1040#1.9600.1040</guid>
+      <category>Changelog</category>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.9600.1032</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9600.1032</link>
+      <description>&lt;h3&gt;Token Tracking in Response Card&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Added token usage tracking to the response card. You can now see a breakdown of input tokens, output tokens, and cached input tokens for each response directly in the chat panel.&lt;/li&gt;&lt;li&gt;Enhanced the context window indicator to show when the prompt cache expires, giving you better visibility into cache utilization.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed keyboard input issues with the built-in terminal on Windows&lt;/li&gt;&lt;li&gt;Improved cost sorting for token-based plans in the model picker&lt;/li&gt;&lt;li&gt;Clarified which models are available only on pro plans&lt;/li&gt;&lt;li&gt;Repaired devcontainer support on RHEL 8&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9600.1032#1.9600.1032</guid>
+      <category>Changelog</category>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.9600.1002</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9600.1002</link>
+      <description>&lt;h3&gt;Model &amp; Cost Visibility&lt;/h3&gt;&lt;p&gt;Replaced dollar signs with granular cost metrics for quota-based billing plans.&lt;/p&gt;&lt;h3&gt;Additional fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Improved performance for large repos&lt;/li&gt;&lt;li&gt;Upgraded to VSCode base version 1.110&lt;/li&gt;&lt;li&gt;Fixed issues with diff zones reappearing after acceptance&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9600.1002#1.9600.1002</guid>
+      <category>Changelog</category>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf Next 1.9577.1042</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.9577.1042</link>
@@ -20,7 +52,7 @@
     <item>
       <title>Windsurf Next 1.9577.1043</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.9577.1043</link>
-      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fix build for Mac x64&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;h3&gt;Quota Billing&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Added support for the new quota billing system&lt;/li&gt;&lt;li&gt;Daily and Weekly quota usage is now displayed directly in the IDE&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fix build for Mac x64&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9577.1043#1.9577.1043</guid>
       <category>Changelog</category>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
