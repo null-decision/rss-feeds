@@ -8,7 +8,35 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 May 2026 20:39:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 21:17:53 +0000</lastBuildDate>
+    <item>
+      <title>Supercharge your integration workflow with the Google Pay &amp; Wallet Developer MCP server</title>
+      <link>https://developers.googleblog.com/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/pay-wallet-dev-mcp-thumb.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google has announced the new Google Pay &amp; Wallet Developer MCP server, an open-standard tool designed to securely connect AI development assistants and IDEs with real-time API and account context. The server allows developers to remain within their development environment to search official documentation, validate Wallet pass definitions, check integration status, and manage merchant accounts. Ultimately, this integration aims to reduce friction and accelerate development workflows by minimizing context switching and providing up-to-date, grounded AI support.</description>
+      <category>Mobile</category>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How the community trained Gemma to "Think" with Tunix and TPUs</title>
+      <link>https://developers.googleblog.com/how-the-community-trained-gemma-to-think-with-tunix-and-tpus/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner_Tg8sqqU.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The Google Tunix Hackathon on Kaggle challenged developers to transform small, non-reasoning base models into general reasoning engines using Kaggle TPUs and a limited compute budget. The winning teams achieved this by implementing multi-stage post-training pipelines that combined Supervised Fine-Tuning (SFT) with advanced alignment techniques like GRPO and SimPO. Ultimately, the competition democratized AI development by proving that highly capable, structured reasoning models can be successfully trained by the community using accessible, open-source resources.</description>
+      <category>AI</category>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing ADK for Kotlin and ADK for Android 0.1.0: Building AI Agents on Android and Beyond</title>
+      <link>https://developers.googleblog.com/adk-kotlin-android-building-ai-agents/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google has announced the launch of version 0.1.0 of the Agent Development Kit (ADK) for Kotlin, alongside a specialized ADK library for Android. This open-source framework simplifies the creation of AI agents by managing complex orchestration, session sharing, and error handling across cloud and edge environments. The release supports hybrid orchestration, enabling developers to build multi-agent systems where a cloud-based model can seamlessly offload specific tasks to local, on-device models like Gemini Nano to enhance user privacy.</description>
+      <category>Mobile</category>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Empowering Service Providers and Hardware Partners with Gemini for Home</title>
+      <link>https://developers.googleblog.com/empowering-service-providers-and-hardware-partners-with-gemini-for-home/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/io26-blog-01-intro-hero4x.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google is expanding its smart home ecosystem by launching a full-stack Gemini AI offering that integrates advanced camera intelligence, natural language queries, and daily activity summaries. This initiative provides service providers and hardware manufacturers with turnkey reference designs and APIs to build proactive, branded services without extensive research and development. Ultimately, the program aims to move beyond basic device control toward an AI-native home that can understand context and care for users' needs in real time.</description>
+      <category>AI</category>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>All the news from the Google I/O 2026 Developer keynote</title>
       <link>https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/</link>
@@ -50,34 +78,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400_Q9r0CZs.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The Google Tensor ML SDK is graduating to its Beta phase, allowing developers to build and deploy high-performance machine learning models directly onto the TPU of Google Pixel 10 devices. By integrating with LiteRT, Google's edge deployment framework, the SDK provides a unified workflow for developers to convert, compile, and run PyTorch or TFLite models with robust fallback options. Additionally, a new model garden offers over 100 classic and generative AI models, including Gemma 3, enabling low-latency, private features like speech recognition, computer vision, and text generation.</description>
       <category>Mobile</category>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Announcing Genkit Middleware: Intercept, extend, and harden your agentic apps</title>
-      <link>https://developers.googleblog.com/announcing-genkit-middleware-intercept-extend-and-harden-your-agentic-apps/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/8tcoTizqNz4MNzc.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Genkit is an open-source framework designed to help developers build production-ready, agentic AI applications using TypeScript, Go, Dart, and Python. The framework utilizes a powerful middleware system that intercepts generation calls to inject custom behaviors like retries, model fallbacks, and human-in-the-loop tool approvals. By attaching hooks at the generate, model, and tool layers, developers can ensure high reliability and deterministic control over model outputs. Furthermore, Genkit allows for the creation and stacking of custom middleware, all of which can be inspected and debugged through a dedicated Developer UI.</description>
-      <category>AI</category>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Accelerating on-device AI: A look at Arm and Google AI Edge optimization</title>
-      <link>https://developers.googleblog.com/accelerating-on-device-ai-a-look-at-arm-and-google-ai-edge-optimization/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ARM_Audio.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Integration of Arm Scalable Matrix Extension 2 (SME2) and the Google AI Edge software stack enables high-performance, on-device generative AI by turning the CPU into a powerful matrix-compute accelerator. Using Stability AI’s "stable-audio-open-small" model as a case study, it outlines a streamlined "Convert, Optimize, and Deploy" pipeline that utilizes LiteRT, XNNPACK, and KleidiAI to automate hardware acceleration. The resulting implementation achieves over a 2x speedup in audio generation and a 4x reduction in memory usage while maintaining high audio quality on Arm-powered mobile devices and laptops.</description>
-      <category>Mobile</category>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Build Long-running AI agents that pause, resume, and never lose context with ADK</title>
-      <link>https://developers.googleblog.com/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Long-running-agent-banner.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;How to transition from stateless chatbots to production-grade agents capable of managing long-running enterprise workflows, such as HR onboarding, that span days or weeks. It introduces the Agent Development Kit (ADK) and its architectural shifts, specifically using durable state machines and persistent session storage to ensure an agent never loses context during "idle time" or server restarts. By leveraging event-driven webhooks and multi-agent delegation, the tutorial demonstrates how to build resilient systems that "sleep" during pauses and wake up to resume complex tasks with high reasoning accuracy.</description>
-      <category>AI</category>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Supercharging LLM inference on Google TPUs: Achieving 3X speedups with diffusion-style speculative decoding</title>
-      <link>https://developers.googleblog.com/supercharging-llm-inference-on-google-tpus-achieving-3x-speedups-with-diffusion-style-speculative-decoding/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_5uj3px5uj3p.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Researchers at UCSD have successfully implemented DFlash, a block-diffusion speculative decoding method, on Google TPUs to bypass the sequential bottlenecks of traditional autoregressive drafting. By "painting" entire blocks of candidate tokens in a single forward pass rather than predicting them one-by-one, the system achieved average speedups of 3.13x, with peak performance nearly doubling that of existing methods like EAGLE-3. This open-source integration into the vLLM ecosystem optimizes TPU hardware by leveraging "free" parallel verification and high-quality draft predictions for complex reasoning tasks.</description>
-      <category>AI</category>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
