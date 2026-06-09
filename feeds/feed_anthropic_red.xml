@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_red.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Jun 2026 10:11:40 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 11:59:49 +0000</lastBuildDate>
     <item>
       <title>Measuring LLMs' Impact on N-day Exploits</title>
       <link>https://red.anthropic.com/2026/n-days/</link>
@@ -209,7 +209,7 @@
       <description>Large Language Models (LLMs) that are not fine-tuned for cybersecurity can succeed in multistage
                     attacks on networks with dozens of hosts when equipped with a novel toolkit.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2025/cyber-toolkits/index.html</guid>
-      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
