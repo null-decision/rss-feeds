@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_red.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Jun 2026 18:02:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 19:50:35 +0000</lastBuildDate>
     <item>
       <title>Measuring LLMs' Impact on N-day Exploits</title>
       <link>https://red.anthropic.com/2026/n-days/</link>
@@ -195,21 +195,21 @@
       <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Project Vend</title>
-      <link>https://red.anthropic.com/2025/project-vend/index.html</link>
-      <description>We let Claude manage an automated store in our office as a small business for about a month. We
-                    learned a lot about the plausible, strange, not-too-distant future in which AI models are
-                    autonomously running things in the real economy.</description>
-      <guid isPermaLink="false">https://red.anthropic.com/2025/project-vend/index.html</guid>
-      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Cyber Toolkits for LLMs</title>
       <link>https://red.anthropic.com/2025/cyber-toolkits/index.html</link>
       <description>Large Language Models (LLMs) that are not fine-tuned for cybersecurity can succeed in multistage
                     attacks on networks with dozens of hosts when equipped with a novel toolkit.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2025/cyber-toolkits/index.html</guid>
       <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Project Vend</title>
+      <link>https://red.anthropic.com/2025/project-vend/index.html</link>
+      <description>We let Claude manage an automated store in our office as a small business for about a month. We
+                    learned a lot about the plausible, strange, not-too-distant future in which AI models are
+                    autonomously running things in the real economy.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2025/project-vend/index.html</guid>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
